@@ -1,0 +1,14 @@
+fastapi
+fastmcp
+uvicorn
+psycopg2-binary
+sqlalchemy[asyncio]
+alembic
+pydantic
+sqlmodel
+asyncpg
+anthropic
+python-dotenv
+openai
+mcp[cli]
+httpx
