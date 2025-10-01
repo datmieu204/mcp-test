@@ -36,7 +36,7 @@ class MCPServerInDB(MCPServerBase):
 
     class Config:
         from_attributes = True
-        validate_by_name = True
+        populate_by_name = True
 
 class MCPServerResponse(BaseModel):
     id: UUID
@@ -49,4 +49,4 @@ class MCPServerResponse(BaseModel):
 
     class Config:
         from_attributes = True
-        validate_by_name = True
+        populate_by_name = True
